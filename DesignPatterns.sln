@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplateM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor", "Visitor\Visitor.csproj", "{8E06737E-AFFB-41BB-B939-E05F99A6ECCF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPattern", "RepositoryPattern\RepositoryPattern.csproj", "{2CDC2473-FF46-486A-B037-F812CD9371BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{8E06737E-AFFB-41BB-B939-E05F99A6ECCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E06737E-AFFB-41BB-B939-E05F99A6ECCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E06737E-AFFB-41BB-B939-E05F99A6ECCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CDC2473-FF46-486A-B037-F812CD9371BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CDC2473-FF46-486A-B037-F812CD9371BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CDC2473-FF46-486A-B037-F812CD9371BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CDC2473-FF46-486A-B037-F812CD9371BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -181,5 +187,8 @@ Global
 		{EDED57B8-305E-470A-9BF6-41D4B5F419C3} = {CBEDE5B5-EA4F-4017-A78E-CBABBA025FC2}
 		{2F585E95-89CB-4FFB-B2E3-C8472E507A3D} = {CBEDE5B5-EA4F-4017-A78E-CBABBA025FC2}
 		{8E06737E-AFFB-41BB-B939-E05F99A6ECCF} = {CBEDE5B5-EA4F-4017-A78E-CBABBA025FC2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8AA3F6C6-9793-4A71-8394-6E5B5D797FCC}
 	EndGlobalSection
 EndGlobal
